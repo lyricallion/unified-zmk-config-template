@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: badjeff
       url-base: https://github.com/badjeff
-    - name: abababababababa
-      url-base: https://github.com/abababababababa
+    - name: elekit-official
+      url-base: https://github.com/elekit-official
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -22,7 +22,7 @@ manifest:
       remote: badjeff
       revision: main
     - name: zmk_encoder
-      remote: abababababababa
+      remote: elekit-official
       revision: main
       path: modules/zmk_encoder
   self:
