@@ -1,6 +1,6 @@
 &trackball_listener {
     scroller {
-        layers = <3>; // ★ZMK Studio側でスクロール用として使う「レイヤー番号」
+        layers = <3>; // ★ZMK Studioで見えている「レイヤー3」を指定します
         input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 128>;
     };
 };
