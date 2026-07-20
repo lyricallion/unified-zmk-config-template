@@ -1,3 +1,9 @@
+&trackball_listener {
+    scroller {
+        layers = <3>; // ★ZMK Studio側でスクロール用として使う「レイヤー番号」
+        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 128>;
+    };
+};
 //スクロール量の調整(デフォルト150)
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 150
 
