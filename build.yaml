@@ -4,12 +4,12 @@ include:
   # R側 (Central)
   # ==============================
   # トラックパッド版
-  - board: seeeduino_xiao_ble//zmk
+  - board: seeeduino_xiao_ble
     shield: sosho_R_trackpad rgbled_adapter
     artifact-name: sosho_R_trackpad
 
   # トラックボール版
-  - board: seeeduino_xiao_ble//zmk
+  - board: seeeduino_xiao_ble
     shield: sosho_R_trackball rgbled_adapter
     artifact-name: sosho_R_trackball
 
@@ -17,18 +17,18 @@ include:
   # L側 (Peripheral)
   # ==============================
   # トラックパッド版
-  - board: seeeduino_xiao_ble//zmk
+  - board: seeeduino_xiao_ble
     shield: sosho_L_trackpad rgbled_adapter
     artifact-name: sosho_L_trackpad
 
   # トラックボール版
-  - board: seeeduino_xiao_ble//zmk
+  - board: seeeduino_xiao_ble
     shield: sosho_L_trackball rgbled_adapter
     artifact-name: sosho_L_trackball
 
   # ==============================
   # 設定リセット用
   # ==============================
-  - board: seeeduino_xiao_ble//zmk
+  - board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: settings_reset
