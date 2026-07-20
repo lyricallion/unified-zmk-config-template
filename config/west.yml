@@ -1,29 +1,16 @@
 manifest:
-  defaults:
-    revision: main
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
-    - name: badjeff
-      url-base: https://github.com/badjeff
-    - name: elekit-official
-      url-base: https://github.com/elekit-official
+      url: https://github.com
+    - name: elekit
+      url: https://github.com
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: main  # ★ここを最新（main）に強制固定し、最新のxiao_ble//zmkをシステムに認識させます
       import: app/west.yml
-    - name: zmk-rgbled-widget
-      remote: caksoylar
+    - name: unified-zmk-config-template
+      remote: elekit
       revision: main
-    - name: zmk-pmw3610-driver
-      remote: badjeff
-      revision: main
-    - name: zmk_encoder
-      remote: elekit-official
-      revision: main
-      path: modules/zmk_encoder
   self:
     path: config
