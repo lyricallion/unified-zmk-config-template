@@ -1,3 +1,7 @@
+#ifdef CONFIG_ZMK_STUDIO
+#undef CONFIG_ZMK_STUDIO
+#endif
+
 &trackball_listener {
     scroller {
         layers = <3>; // ★ZMK Studioで見えている「レイヤー3」を指定します
